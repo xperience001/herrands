@@ -49,6 +49,15 @@ body {
   border: #26344F solid 2px;
   color: white;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.but:active {
+  transform: translateY(4px);
+}
+
+.but:hover {
+  filter: brightness(85%);
 }
 
 .contact {
